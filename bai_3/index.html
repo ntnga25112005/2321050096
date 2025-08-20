@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee>ahihii</marquee>
+    <marquee><img src="/bai_1/image/shincute.jfif"></img></marquee>
+    <h1>Bài 3</h1>
+    <!-- Danh sách list -->
+    <!-- có thứ tự ol, li -->
+    <p>Danh sách cac công việc vào buổi sáng</p>
+    <ol>
+        <li>Thức dậy</li>
+        <li>Đánh răng</li>
+        <li>Rửa mặt</li>
+        <li>Ăn sáng</li>
+        <li>Giải lao</li>
+    </ol>
+    <!-- Danh sách không có thứ tự ul, li -->
+    <p>Các ngôn ngữ lập trình web</p>
+    <ul>
+        <li>Python</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+    </ul>
+    <h2>Form</h2>
+    <form >
+        <div>
+        <b>Họ và tên: </b>
+        <input type="text" name="hoten" placeholder="Nhập tên vào đây">
+        </div>
+        <div>
+        <b>Năm: </b>
+        <input type="text" name="nam" value="2025" readonl>
+        </div>
+        <div>
+        <b>Giới thiệu chi tiết về bản thân: </b><br>
+        <textarea name="gioithieu" >Nhập giới thiệu.....</textarea>
+        </div>
+        <div>
+        <b>Email: </b>
+        <input type="email" name="email" placeholder="Dạng @gmail.com">
+        </div>
+        <div>
+            <b>Số điện thoại:</b>
+            <input type="tel" name="sodienthoai" placeholder="0........" required pattern="([0]{1}[0,3,9]{1}[0-9]{8})">
+        </div>
+        <div>
+            <b>Số điện thoại:</b>
+            <input type="tel" name="sodienthoai" placeholder="012-345-678" required pattern="([0-9]{3}(-[0-9]{3})(-[0-9]{3}))">
+        </div>
+        <div>
+            <b>Giới tính</b><br>
+            <input type="radio" name="gioitinh" value="nam">Nam<br>
+            <input type="radio" name="gioitinh" value="nu">Nữ<br>
+            <input type="radio" name="gioitinh" value="khongxacdinh">Không xác định<br>
+        </div>
+        <div>
+            <b>Sở thích</b><br>
+            Game:<input type="checkbox" name="sothich" value="game"><br>
+            Music<input type="checkbox" name="sothich"value="music"><br>
+            Sport<input type="checkbox" name="sothich"value="sprot">
+        </div>
+        <div>
+            <b>Trình duyệt ưa thích</b><br>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">      
+                <option value="Chorme">
+                <option value="Opera">
+            </datalist>
+            <br>
+            <select name="browsers">
+                <option value="Internet Explorer">Interner Explorer</option>
+                <option value="Chorme">Chorme</option>
+                <option value="Opera">Opera</option>
+            </select>
+        </div>
+        <div>
+            0 <input type="range" value="20"> 100
+        </div>
+        <div>
+            <b>Tuổi</b>
+<input type="number" name="tuoi" step="0.5">
+        </div>
+        <div>
+            <b>Ngày tháng năm sinh</b>
+            <input type="date" name="ngaythangnamsinh">
+        </div>
+        <div>
+            <b>Màu sác yêu thích</b>
+            <input type="color" name="" id="">
+        </div>
+        <div>
+            <b>Chọn ảnh đại diện</b>
+            <input type="file">
+        </div>
+        <div>
+            <b>Mật khẩu</b>
+            <input type="password">
+        </div>
+        <input type="reset">
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+<iframe width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <video controls width="560" height="315">
+        <source src="" type="video/mp4">
+    </video>
+
+    <audio controls>
+        <source src="" type="audio/mp3">
+    </audio>
+
+</body>
+</html>
