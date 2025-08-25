@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 4</title>
+    <style>
+        /* h2.title{    } định dạng phải có cả hai h2 và id:title   */
+        h2{
+            /* bên trong bất kì thẻ h2 nào đều chũ màu đỏ */
+            color:red;
+        }
+        p{
+            color:white;
+            background-color: black;
+        }
+        h3:hover{cursor: pointer;}
+        </style>
+        <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <!-- body có 3 ách css:
+    c1: inline style: độ ưu tiên lớn nhất
+
+    c2: internal style 
+    c3: external style  -->
+    <!-- color: màu chữ -->
+     <!-- background-color:màu nền -->
+    <h1 style="color:blue; background-color: orange;">Inline Style</h1>
+    <h2>Internal Style </h2>
+    <h2 class="bg ">Nguyễn Văn Triệu</h2>
+    <h3>External Style </h3>
+    <h3 id="title">Bài CSS </h3>
+    <p>Ví dụ về độ ưu tiên</p>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+</body>
+</html>

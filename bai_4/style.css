@@ -1,0 +1,31 @@
+h3{
+    color:orange;
+}
+#title{
+    background-color: aqua;
+}
+.bg {
+    background-color: aquamarine;
+}
+p{
+    color:red;
+    background-color: pink;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: pink;
+    /* truyền một giá trị các xung quanh bằng giá trị đó
+    50px: trên dưới
+    10px: trái phải 
+    VD: margin: 20px, 10px,50px,60px: trên, dưới, trái,phải*/
+    /* margin: 50px,10px; */
+    width:50%;
+    margin:50px auto;
+     /* margin:50px, auto; tren dưới, căn giữa  */
+}   
+.box3{
+    background-color: aqua;
+}
