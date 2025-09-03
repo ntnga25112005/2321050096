@@ -1,0 +1,83 @@
+body{
+    margin:0;
+}
+
+ul{
+    margin:0;
+}
+
+.Danhmuc{
+    background-color: #1a8dd0;
+    padding: 20px;
+}
+
+.danhmuc-danhsach{
+    display: flex;
+    list-style: none;/* bỏ dấu chấm */
+}
+
+.danhmuc-muc{
+    margin: 10px;
+}
+
+.danhmuc-lienket{
+    color: white;
+    text-decoration: none;/*bỏ gạch chân của thẻ a*/
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.danhmuc-lienket:hover{
+    color:aquamarine;
+}
+.logo{
+    height: 80px;
+    background-color: black;
+}
+main{
+    display: flex;
+}
+.noidung-trai{
+    /* height:1000px;
+    background-color:aqua; */
+    width: 80%;
+    border-radius: 10px;
+    
+}
+.noidung-phai{
+     height:1000px;
+    background-color: chocolate;
+    width: 20%;
+}
+.tieude{
+    background-color: #1a8dd0;
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
+.tintuc-danhsach{
+    display: flex;
+    justify-content: space-between;
+}
+.baiviet{
+    height: 200px;
+    background-color: grey;
+    width: 32%;
+}
+.ngaygio{
+    font-size: small;
+    color:white;
+    background-color:aqua;
+}
+.anh{
+    margin:20px,20px,20px,20px;
+    height: 50px;
+    width: 25%;
+}
+.noidung{
+    color: white;
+    background-color: aqua;
+
+}
