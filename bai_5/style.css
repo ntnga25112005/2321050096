@@ -32,22 +32,21 @@ ul{
 }
 .logo{
     height: 80px;
-    background-color: black;
+    display: flex;
 }
 main{
     display: flex;
 }
 .noidung-trai{
-    /* height:1000px;
-    background-color:aqua; */
+    border: radius 10%;
+    background-color: antiquewhite;
     width: 80%;
-    border-radius: 10px;
-    
 }
 .noidung-phai{
-     height:1000px;
-    background-color: chocolate;
+     height: 400px;
+    background-color:white;
     width: 20%;
+    margin: 0px 0px 0px 5px;
 }
 .tieude{
     background-color: #1a8dd0;
@@ -62,22 +61,59 @@ main{
     justify-content: space-between;
 }
 .baiviet{
-    height: 200px;
-    background-color: grey;
-    width: 32%;
+    height: 250px;
+    width: 33%;
 }
 .ngaygio{
     font-size: small;
     color:white;
     background-color:aqua;
 }
-.anh{
-    margin:20px,20px,20px,20px;
-    height: 50px;
-    width: 25%;
-}
+
 .noidung{
     color: white;
     background-color: aqua;
 
 }
+.ngaythang{
+    
+    background-color:rgb(0, 255, 255) ;
+    color: white;
+    font-size: medium;
+    text-align: right;
+}
+
+
+.noidung{
+    background-color: aqua;
+    color: white;
+    padding: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.thongbao{
+    background-color:#1a8dd0;
+    color: white;
+    font-size: larger;
+    width: 100%;
+   padding: 20px;
+}
+.link{
+    background-color:aqua;
+}
+.anh{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+.date{
+    background: white;
+    color: black;
+    text-align: right;
+    font-size: small;
+}
+img{width: 100%;}
