@@ -45,7 +45,7 @@ main{
 .noidung-phai{
      height: 400px;
     width: 20%;
-    margin: 0px 5px 0px 0px;
+    margin: 0px 0px 0px 5px;
 }
 .tieude{
     background-color: #1a8dd0;
@@ -119,4 +119,9 @@ img{
 }
 input{
     width: 100%;
+}
+
+.bang{
+   display: flex;
+   border-bottom:1px solid rgb(241, 237, 237)
 }
