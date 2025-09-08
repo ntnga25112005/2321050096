@@ -1,5 +1,6 @@
 body{
     margin:0;
+    background-color: #bec0c2;
 }
 
 ul{
@@ -39,22 +40,20 @@ main{
 }
 .noidung-trai{
     border: radius 10%;
-    background-color: antiquewhite;
     width: 80%;
 }
 .noidung-phai{
      height: 400px;
-    background-color:white;
     width: 20%;
-    margin: 0px 0px 0px 5px;
+    margin: 0px 5px 0px 0px;
 }
 .tieude{
     background-color: #1a8dd0;
-    padding: 20px;
+    padding: 15px;
     color: white;
     font-size: x-large;
     font-weight: bold;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
 }
 .tintuc-danhsach{
     display: flex;
@@ -68,21 +67,16 @@ main{
     font-size: small;
     color:white;
     background-color:aqua;
+    height: 7px;
 }
 
-.noidung{
-    color: white;
-    background-color: aqua;
-
-}
 .ngaythang{
     
-    background-color:rgb(0, 255, 255) ;
+    background-color:#C5E6F8 ;
     color: white;
     font-size: medium;
     text-align: right;
 }
-
 
 .noidung{
     background-color: aqua;
@@ -102,18 +96,27 @@ a{
     width: 100%;
    padding: 20px;
 }
-.link{
-    background-color:aqua;
-}
-.anh{
-    background-color: white;
-    width: 100%;
-    height: 25%;
-}
+
+
 .date{
     background: white;
     color: black;
     text-align: right;
     font-size: small;
 }
-img{width: 100%;}
+
+.date{
+   width:20%;
+   text-align:right;
+   color: #495057;
+}
+.noidungbaiviet{
+    text-align: justify;
+    background-color: #C5E6F8;
+}
+img{
+    width: 100%;
+}
+input{
+    width: 100%;
+}
