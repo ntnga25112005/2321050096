@@ -1,0 +1,73 @@
+body{
+    background-color: #F1F0F4;
+}
+header{
+    width: 50%;
+    background-color: #F1F0F4;
+    color: #3D65F6;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+main{
+    width: 30%;
+    margin: auto;
+    background-color: white;
+
+}
+.doan1{
+    font-size: 25px ;
+    text-align: center;
+    font-weight: bold;
+
+}
+.doan2{
+    color: #6F7174;
+    text-align: center;
+}
+.khoi1{
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.khoi2-1{
+    display: flex;
+    padding: 7px;
+}
+.nhap{
+    width: 47%;
+    margin: auto;
+    padding: 5px;
+}
+
+
+.khoi2-2{
+    display: flex;
+}
+select{
+    width: 33%;
+    margin: auto;
+    padding: 6px;
+}
+.khoi2-3{
+    display: flex;
+}
+.gt{
+    width: 25%;
+    margin: auto;
+    padding: 6px;
+    border: 1px solid gray;
+}
+.khoi2-3 input{
+    text-align: right;
+}
+.dn{
+    padding: 6px;
+    margin: auto;
+    width: 90%;
+    margin: 5px;
+}
+.khoi{
+    width: 90%;
+    margin: auto;
+}

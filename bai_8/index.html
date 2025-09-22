@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <script>
+        document.writeln("Hello Word! "+"123");
+        //Để khai báo biến js dùng let hoặc var
+        //Cú pháp: let tênBiến = Giá trị;
+        //Để nối chuỗi js dùng dấu +
+        let hoTen = "Nguyen Thuy Nga"+"<br>";
+        document.writeln(hoTen);
+
+        let soThuNhat = 10;
+        let soThuHai = 5;
+        let ketQua = 0;
+        //Phép cộng: +
+        //Phép trừ: -
+        //Phép nhân: *
+        //Phép chia: /
+        //Tăng 1: ++
+        //Giảm 1: --
+        // ketQua = soThuNhat * soThuHai;
+        // ketQua++;
+        // soThuNhat += soThuHai; //soThuNhat = soThuNhat + soThuHai;
+        document.writeln(soThuNhat);
+        document.writeln(ketQua);
+        // == != === !=== > < >= <=
+        let thongTinSinhVien = {
+            hoTen: "Nguyễn Thúy Nga",
+            mssv: 2321050096,
+            gioiTinh: false,
+            tuoi:20,
+            lop: "DCCTCT68A"
+        }
+        let diaChiNha ={
+            tinh: "Bắc Ninh",
+            huyen: "Thuận Thành",
+            xa: "Trạm Lộ",
+            thon: "Ngọc Nội"
+        }
+        thongTinSinhVien.diaChi = diaChiNha;
+        document.writeln("Xin chao bạn: " + thongTinSinhVien.hoTen + thongTinSinhVien.tuoi + thongTinSinhVien.diaChi.tinh + "năm sinh: "+( 2025-thongTinSinhVien.tuoi));
+        // document.writeln(soThuNhat == soThuHai);//so sánh giá trị
+        // document.writeln(soThuNhat === soThuHai);//so sánh giá trị và kiểu dữ liệu phải thỏa mãn cả 2
+        // document.writeln(soThuNhat !== soThuHai);//chỉ cần 1 trong 2 thỏa mãn
+        console.log(thongTinSinhVien)
+    </script>
+</body>
+</html>`

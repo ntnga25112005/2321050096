@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 40%;
+    background-color: blue;
+    height: 700px;
+    margin: auto;
+}
+.noidung{
+    width: 70%;
+    background-color: green;
+    height: 500px;
+    margin: auto;
+}
+.form{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.logo{color: white;}

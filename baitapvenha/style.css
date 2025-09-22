@@ -1,0 +1,67 @@
+body{
+    background-color: #1D1D1D;
+    border-radius: 10px;
+}
+main{
+    background-color:#121212 ;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+span{
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+
+}
+.login{
+    border-radius: 15px;
+    border: 1px solid gray;
+    color: white;
+    font-size: bolder;
+    text-align: center;
+    width: 100%;
+    background-color: #1D1D1D;
+    padding: 9px;
+    margin: 5px
+
+}
+.dangnhap{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+   
+}
+footer{
+    background-color:#121212 ;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.tieptuc{
+    border-radius: 15px;
+    background-color:#7EE082 ;
+    color: black;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+}
+input{
+    width: 74%;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    background-color: #121212;
+}
+footer p {
+    color: white;
+}
+a:hover{
+    color: greenyellow;
+}

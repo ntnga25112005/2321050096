@@ -79,6 +79,8 @@ main {
 }
 .quangcao img{
     width: 70%;
+    margin-top: 90px;
+    border-radius: 4px;
 }
 .container {
     width: 70%;
@@ -89,6 +91,8 @@ main {
 
 .banner {
     width: 98%;
+    border-radius: 4px;
+    margin-top: 4px;
 }
 
 .qc {
@@ -124,9 +128,10 @@ main {
 }
 .noidung{
     color: white;
-    text-align: left;
-    margin:0% 1% 1% 1%;
-    width: 100%;
+    text-align:left;
+    margin:6px 10px;
+    width: 20%;
+
 }
 footer{
     margin:30px;
