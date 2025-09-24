@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let thongTinDonHang ={
+            maDonHang: "123456",
+            thongTinKhachHang:{
+                hoTen: "Nguyeenx Thuys Nga",
+                soDienThoai: "0961795306",
+                thanhVienThanThiet: false
+            },
+            sanPham :{
+                caffe:{
+                    maSanPham:1,
+                    tenSanPham:"caffe",
+                    soLuong: 10,
+                    giaTien: 10000
+                    },
+                mattcha:{
+                    maSanPham:1,
+                    tenSanPham:"mattcha",
+                    soLuong: 10,
+                    giaTien: 10000
+                    },
+                trasua:{
+                    maSanPham:1,
+                    tenSanPham:"trà sữa",
+                    soLuong: 10,
+                    giaTien: 10000
+                    }
+            },
+            trangThaiThanhToan :true,
+            diaChiGiaoHang : "ahahhaha"
+        }
+        let tongSoTienDonhang = thongTinDonHang.sanPham.caffe.soLuong*thongTinDonHang.sanPham.caffe.giaTien
+                            +thongTinDonHang.sanPham.mattcha.soLuong*thongTinDonHang.sanPham.mattcha.giaTien
+                            +thongTinDonHang.sanPham.trasua.soLuong*thongTinDonHang.sanPham.trasua.giaTien;
+        document.writeln("Tong so tien"+ (thongTinDonHang.sanPham.caffe.soLuong*thongTinDonHang.sanPham.caffe.giaTien
+                            +thongTinDonHang.sanPham.mattcha.soLuong*thongTinDonHang.sanPham.mattcha.giaTien
+                            +thongTinDonHang.sanPham.trasua.soLuong*thongTinDonHang.sanPham.trasua.giaTien));
+        document.writeln("Triệu trẩu");
+        document.writeln("độ dài kí tự"+ thongTinDonHang.maDonHang.length);
+        var myString = "HEllo umbalaxibua";
+         var t =myString.length;
+        document.writeln(myString[0]);
+        document.writeln(t);
+        document.writeln(myString.slice(1,4)); 
+        document.writeln(myString.replace("HEllo","Hi")); 
+        document.writeln(myString.toLocaleUpperCase());
+        //index trả ra vị trí xuất hiện đầu tiên của kí tự đó
+        //Nếu có trả ra vị trí, nếu không thì trả ra -1
+        document.writeln(myString.indexOf('o'));
+        document.writeln(myString.includes('E'));
+        document.writeln(myString.split('a'))
+        let danhSach = ["n t t", "n n t", "n t n"];
+        document.writeln(danhSach[1].startsWith("n"));
+        //chuyển chuỗi về số
+        let so ="123";
+        document.writeln(typeof(so));
+        document.writeln(typeof(Number(so)));
+        document.writeln( parseInt("28.5"));
+        document.writeln( parseFloat("28.5"));
+        var pi = 3.14159;
+        document.writeln(pi.toFixed(3));
+       document.writeln(  isNaN(NaN));
+       document.writeln( isFinite(10));
+       let toDay = new Date();
+       document.writeln(toDay);
+       let today = new Date('2025- 03-03')
+       document.writeln(today);
+       document.writeln(toDay.getDay()); // Chủ nhật là 0, Thứ 2 là 1,......
+       document.writeln(toDay.getMonth());
+        document.writeln(toDay.getHours());
+
+    </script>
+    <!-- <h2>iu em </h2> -->
+</body>
+</html>
