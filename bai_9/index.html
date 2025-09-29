@@ -47,35 +47,36 @@
         document.writeln("độ dài kí tự"+ thongTinDonHang.maDonHang.length);
         var myString = "HEllo umbalaxibua";
          var t =myString.length;
-        document.writeln(myString[0]);
-        document.writeln(t);
-        document.writeln(myString.slice(1,4)); 
-        document.writeln(myString.replace("HEllo","Hi")); 
-        document.writeln(myString.toLocaleUpperCase());
+        document.writeln(myString[0]);//H
+        document.writeln(t);//17
+        document.writeln(myString.slice(1,4)); //ELL
+        document.writeln(myString.replace("HEllo","Hi")); //Hi umbalaxibua
+        document.writeln(myString.toLocaleUpperCase());//HELLO UMBALAXIBUA
         //index trả ra vị trí xuất hiện đầu tiên của kí tự đó
         //Nếu có trả ra vị trí, nếu không thì trả ra -1
-        document.writeln(myString.indexOf('o'));
-        document.writeln(myString.includes('E'));
-        document.writeln(myString.split('a'))
+        document.writeln(myString.indexOf('o'));//4
+        document.writeln(myString.includes('E'));//true
+        document.writeln(myString.split('a'))// HEllo umb , l , xibua,  
         let danhSach = ["n t t", "n n t", "n t n"];
-        document.writeln(danhSach[1].startsWith("n"));
+        document.writeln(danhSach[1].startsWith("n"));// true
         //chuyển chuỗi về số
         let so ="123";
-        document.writeln(typeof(so));
-        document.writeln(typeof(Number(so)));
-        document.writeln( parseInt("28.5"));
-        document.writeln( parseFloat("28.5"));
+        document.writeln(typeof(so));//string
+        document.writeln(typeof(Number(so)));//number
+        document.writeln( parseInt("28.5"));//28
+        document.writeln( parseFloat("28.5"));//28.5
         var pi = 3.14159;
-        document.writeln(pi.toFixed(3));
-       document.writeln(  isNaN(NaN));
-       document.writeln( isFinite(10));
+        document.writeln(pi.toFixed(3));//3.142
+       document.writeln(  isNaN(10));//true
+       document.writeln( isFinite(10));//true
        let toDay = new Date();
        document.writeln(toDay);
-       let today = new Date('2025- 03-03')
-       document.writeln(today);
+       let today = new Date("2025- 03 - 29"); 
+       document.writeln(today );
        document.writeln(toDay.getDay()); // Chủ nhật là 0, Thứ 2 là 1,......
        document.writeln(toDay.getMonth());
         document.writeln(toDay.getHours());
+        document.writeln()
 
     </script>
     <!-- <h2>iu em </h2> -->
