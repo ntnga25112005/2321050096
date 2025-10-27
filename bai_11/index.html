@@ -84,21 +84,31 @@
             //Kiểm tra chẵn lẻ+ promt
             //Người dùng dã nhập vào số->Tạo hàm ktra số chẵn lẻ->In ra kết quả
    
-         let so = prompt("nhập số : ","điền số của bạn !  ");
-         so = parseFloat(so);
-         function ktra (so){
-            if(so %2 == 0){
-                document.writeln(" đây là số chắn ! ");
-            }else{
-                document.writeln(" số lẻ !")
-            }
-        }
-        if(!isNaN(so)){
-             ktra(so);
-            } 
-        else{
-             document.writeln("Vui lòng nhập số");
-            }
+        //  let so = prompt("nhập số : ","điền số của bạn !  ");
+        //  so = parseFloat(so);
+        //  function ktra (so){
+        //     if(so %2 == 0){
+        //         document.writeln(" đây là số chắn ! ");
+        //     }else{
+        //         document.writeln(" số lẻ !")
+        //     }
+        // }
+        // if(!isNaN(so)){
+        //      ktra(so);
+        //     } 
+        // else{
+        //      document.writeln("Vui lòng nhập số");
+        //     }
+        var n = Number( prompt("nhập số lượng học sinh", "Nhập đi"));
+        let arr = []
+        for (let i = 0; i<=n-1; i++){
+        var a = Number(prompt("Nhập và điểm","điểm"));
+        arr.push(a);
+        // document.writeln(arr);  
+            }      
+        
+        document.writeln(Math.max(...arr));
+
         </script>
 </body>
 </html>
