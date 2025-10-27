@@ -1,78 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        .yeu-cau {
+            color: red;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        Facebook
-    </header>
-    <main>
-        <div class="khoi">
-        <div class="khoi1">
-        <p class="doan1">Create a new account</p>
-        <p class="doan2">It's quick and easy</p>
+    <h1>Tính chỉ số BMI</h1>
+    <p>Công thức: Cân năng / (Chiều cao * Chiều cao)</p>
+    <p>Cân nặng: Kg</p>
+    <p>Chiều cao: m</p>
+
+    <div class="yeu-cau">
+        <!-- <p>Tạo input cho phép nhập vào chiều cao cân nặng</p> -->
+       <div>
+        Chiều cao: <input type="text" placeholder="Nhập chiều cao" id="chieucao">
+       </div>
+       <div>
+        Cân năng:<input type="text" placeholder="Nhập cân năng"  id="cannang">
+       </div>
+        <p>Tạo nút bấm kiểm tra chỉ số BMI</p>
+        <div>
+            <button onclick="ketQua()">Kiểm tra</button>
+            <input type="text" id="ketqua">
         </div>
-        <div class="khoi2">
-            <div class="khoi2-1">
-            <input  class="nhap" type="text" placeholder="First name">
-            <input class="nhap" type="text" placeholder="Surname">
-            </div>
-            <p>Date of birth</p>
-            <div class="khoi2-2">
-           
-            <select name="ngay" id="">
-                <option value="">10</option>
-                <option value="">15</option>
-                <option value="">20</option>
-                <option value="">25</option>
-            </select>
-           
-            
-            <select name="thang" id="">
-                <option value="">10</option>
-                <option value="">15</option>
-                <option value="">20</option>
-                <option value="">25</option>
-            </select>
-            
-            <select name="nam" id="">
-                <option value="">10</option>
-                <option value="">15</option>
-                <option value="">20</option>
-                <option value="">25</option>
-            </select>
-            
-            </div>
-            <p>Gender</p>
-            <div class="khoi2-3">
-            <div class="gt">
-            <label for="female">Female</label>
-            <input type="radio" id="female" name="gender">
-            </div>
-            <div class="gt">
-            <label for="male">Male</label>
-            <input type="radio" id="male" name="gender">
-            </div>
-            <div class="gt">
-            <label for="custom">Custom</label>
-            <input type="radio" id="custom" name="gender">
-            </div>
-            </div>
-            <input class="dn"  type="text" placeholder="Mobile number or email address">
-            <input class="dn" type="text" placeholder="New password">
-        </div>
-        
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nisi ipsam, mollitia beatae error molestias aspernatur recusandae? Saepe numquam soluta, nostrum nulla dolorum dolorem rem officiis eligendi asperiores vero error?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nisi ipsam, mollitia beatae error molestias aspernatur recusandae? Saepe numquam soluta, nostrum nulla dolorum dolorem rem officiis eligendi asperiores vero error?</p>
-        <button>Sign Up</button>
-       <p> Already have an account?</p>
-   
+        <p>Trường hợp 1: Người dùng không nhập hoặc nhập sai thông tin phải cảnh báo</p>
+        <p>Trường hợp 2: Nhập đúng, hiển thị được chỉ số BMI và hình ảnh tương ứng</p>
     </div>
-    </main>
-   
+    <script>
+        function ktraHopLe(a,b){
+            let kiemTra = true;
+            if (a<0||typeof(a)!='number'){
+                document.writeln("Chiều cao  không hợp lệ");
+                kiemTra = false;           
+        }
+         if (b<0||typeof(b)!='number'){
+                document.writeln("Cân nặng  không hợp lệ");
+                kiemTra = false;           
+        } return kiemTra;
+    }
+        function ktraBMI(a,b){
+            let BMI ;
+            if (ktraHopLe(a,b)==true){{
+                BMI = b/(a*a);
+            } return BMI;
+            
+         
+        }
+        function ketQua(){
+          let chieucao = parseFloat( document.getElementById('chieucao').value);
+          let cannang =parseFloat( document.getElementById('cannang').value);
+          document.getElementById('ketqua').value = ktraBMI(chieucao,cannang);
+        }
+    </script>
 </body>
+
 </html>

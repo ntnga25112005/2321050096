@@ -15,7 +15,7 @@
         <input type="number" id="diemB" class="diemB" placeholder="Nhập điểm B">
     </div>
     <div>
-        <input type="number" id="diemB" placeholder="Nhập điểm C">
+        <input type="number" id="diemC" placeholder="Nhập điểm C">
     </div>
     <div>
         <input type="" id="ketQua" placeholder="ketQua"  > </div>
@@ -23,9 +23,7 @@
     Tạo hàm js tính điểm sinh viên dựa vào 3 điểm A, B, C <br>
     Tổng điểm = A*0.6 +B*0.3 + C* 0.1
     <script>
-     let ok = document.querySelector('#ketQua');
-     console.log(ok)
-      
+       
       function kiemTraHopLe(a, b, c){
             let kiemTra = true;
             if (a<0||a>10||typeof(a)!='number'){
