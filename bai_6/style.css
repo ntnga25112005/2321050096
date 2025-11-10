@@ -4,6 +4,8 @@ body {
 
 header {
     background-color: black;
+    position: relative;
+    z-index: 1000;
 }
 
 .header-container {
@@ -93,8 +95,17 @@ main {
     width: 98%;
     border-radius: 4px;
     margin-top: 4px;
+    position: relative;
 }
-
+.trailler{
+    display: none;
+}
+.btn-img{
+  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 .qc {
     margin-top: 10px;
     width: 98%;
@@ -135,4 +146,8 @@ main {
 }
 footer{
     margin:30px;
+}
+.trailler{
+  width: 600px;
+  height: 450px;
 }

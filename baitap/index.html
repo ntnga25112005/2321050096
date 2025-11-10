@@ -11,6 +11,11 @@
             color: red;
             width: 50%;
             padding-right: 5px;
+            display: flex;
+            flex-direction: column;
+            background-color: azure;
+            justify-content: center;
+            align-items: center;
         }
         .bailam{
             display: flex;
@@ -24,6 +29,7 @@
         }
         img{
             width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -38,15 +44,11 @@
        <div>
         Chiều cao: <br> <input type="text" placeholder="Nhập chiều cao" id="chieucao">
        </div>
-       <div>
-        <p></p>
-       </div>
+       
        <div>
         Cân năng: <br> <input type="text" placeholder="Nhập cân năng"  id="cannang">
        </div>
-       <div>
-        <p></p>
-       </div>
+      
         <div>
              <input type="text" id="ketqua">
         </div>
@@ -63,11 +65,11 @@
     <script>
         function ktraHopLe(a,b){
             let kiemTra = true;
-            if (a<0||typeof(a)!='number'){
+            if (a<=0||typeof(a)!='number'){
                 document.writeln("Chiều cao  không hợp lệ");
                 kiemTra = false;           
         }
-         if (b<0||typeof(b)!='number'){
+         if (b<=0||typeof(b)!='number'){
                 document.writeln("Cân nặng  không hợp lệ");
                 kiemTra = false;           
         } return kiemTra;
